@@ -86,11 +86,12 @@ def adding_matz
         }
      }
   
-  # programmer_hash[:yukihiro_matsumoto] = {}
-  programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
-  programmer_hash
-  # programmer_hash[:ukihiro_matsumoto][:languages] = ["LISP", "C"]
   
+  programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
+  
+  # note: updating hash doesn't auto return the hash, need to call separately
+  
+  programmer_hash
   
 end
 
